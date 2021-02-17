@@ -4,6 +4,18 @@ Configures timezone
  
 ## Dependencies
 - [saz/timezone](https://forge.puppet.com/saz/timezone)
+
+## Usage
+
+By default, timezone is set to "America/Chicago" via hiera
+
+### Set timezone to UTC
+
+Set different value in hiera for:
+
+```
+profile_timezone::timezone: "UTC"
+```
  
 ## Reference
  
