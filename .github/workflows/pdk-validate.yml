@@ -1,6 +1,6 @@
 ---
 name: "pdk-validate"
-on:
+"on":
   - "push"
   - "pull_request"
 jobs:
